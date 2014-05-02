@@ -40,6 +40,7 @@ clean:
 	rm -f ${TARGET}.bbl
 	rm -f ${TARGET}.out
 	rm -f ${TARGET}.lof
+	rm -f ${TARGET}.lot
 	rm -f ${TARGET}.toc
 	rm -f *.aux
 	rm -f *.log
