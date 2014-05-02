@@ -30,11 +30,9 @@ files:
 doc:
 	pdflatex ${PACKAGE}.dtx
 	pdflatex ${PACKAGE}.dtx
-	latex ${PACKAGE}.dtx
 
 example: files
 	pdflatex thesis-ex
-	latex thesis-ex	
 	bibtex thesis-ex
 	pdflatex thesis-ex
 	pdflatex thesis-ex
