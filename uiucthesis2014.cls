@@ -20,7 +20,7 @@
 %% original source files, as listed above, are part of the
 %% same distribution. (The sources need not necessarily be
 %% in the same archive or directory.)
-\def\fileversion{v2.25b} \def\filedate{2014/5/1}
+\def\fileversion{v2.25b} \def\filedate{2014/05/02}
 %% Package and Class "uiucthesis2014" for use with LaTeX2e.
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{uiucthesis2014}

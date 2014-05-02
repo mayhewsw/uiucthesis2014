@@ -1,4 +1,6 @@
-TARGET=thesis-ex
+TARGET=thesis
+
+PACKAGE=uiucthesis2014
 
 all: 	withbib
 
@@ -14,21 +16,30 @@ start:
 gen:
 	echo "Running latex (gen)..."
 	pdflatex -G0 ${TARGET}.tex
-#	pdflatex  -tletter -G0 ${TARGET}.tex
-
-#	latex ${TARGET}.tex
-#	dvips  -t letter -G0 -o ${TARGET}.ps ${TARGET}.dvi
-#	ps2pdf ${TARGET}.ps
 
 bib: 		
 	echo "Running bibtex..."
 	bibtex ${TARGET}
 	echo "Rerunning latex...."
-#	pdflatex -tletter -G0 ${TARGET}.tex
 	pdflatex  -G0 ${TARGET}.tex
-#	latex ${TARGET}.tex
-#	bibtex ${TARGET}
 
+
+files:
+	latex ${PACKAGE}.ins
+
+doc:
+	pdflatex ${PACKAGE}.dtx
+	pdflatex ${PACKAGE}.dtx
+	latex ${PACKAGE}.dtx
+
+example: files
+	pdflatex thesis-ex
+	latex thesis-ex	
+	bibtex thesis-ex
+	pdflatex thesis-ex
+	pdflatex thesis-ex
+
+git: files doc example
 
 # Clean
 clean:
@@ -46,5 +57,12 @@ clean:
 	rm -f *.log
 	rm -f *.out
 	rm -f *~
+
+cleanall: clean
+	rm -f ${PACKAGE}.sty
+	rm -f ${PACKAGE}.cls
+	rm -f ${PACKAGE}.dvi
+	rm -f ${PACKAGE}.pdf
+	rm -f thesis-ex.*
 
 
