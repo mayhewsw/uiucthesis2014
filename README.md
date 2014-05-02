@@ -1,12 +1,12 @@
-UIUCTHESIS2014 Package/Class
+uiucthesis2014 Package/Class
 ============================
 
 By Stephen Mayhew  
-(Slightly) Edited version of the UIUCTHESIS2009 Package/Class  
+(Slightly) Edited version of the uiucthesis2009 Package/Class  
 By Charles Kiyanda  
-Edited version of the UIUCTHESIS07 Package/Class  
+Edited version of the uiucthesis07 Package/Class  
 by Tim Head (based on the Peter Czoschke version)  
-Edited version of the UIUCTHESIS Package/Class  
+Edited version of the uiucthesis Package/Class  
 by Peter Czoschke (based on the original version by David Hull)
 
 
@@ -37,10 +37,17 @@ Files
 Installation
 ------------
 
+Run the following in the terminal:
+
 ```
-make files                 <== Produces uiucthesis2014.cls, uiucthesis2014.sty, and thesis-ex.tex
-make example               <== Produces thesis-ex.pdf
-make doc                   <== Produces uiucthesis2014.pdf
+// Produces uiucthesis2014.cls, uiucthesis2014.sty, and thesis-ex.tex
+>> make files
+
+// Produces thesis-ex.pdf
+>> make example               
+
+// Produces uiucthesis2014.pdf
+>> make doc                   
 ```
 
 Dependencies
