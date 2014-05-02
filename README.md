@@ -2,16 +2,11 @@ UIUCTHESIS2014 Package/Class
 ============================
 
 By Stephen Mayhew  
-(Slightly) Edited version of the UIUCTHESIS2009 Package/Class
-
-By Charles Kiyanda
-
-Edited version of the UIUCTHESIS07 Package/Class
-
-by Tim Head (based on the Peter Czoschke version)
-
-Edited version of the UIUCTHESIS Package/Class
-
+(Slightly) Edited version of the UIUCTHESIS2009 Package/Class  
+By Charles Kiyanda  
+Edited version of the UIUCTHESIS07 Package/Class  
+by Tim Head (based on the Peter Czoschke version)  
+Edited version of the UIUCTHESIS Package/Class  
 by Peter Czoschke (based on the original version by David Hull)
 
 
