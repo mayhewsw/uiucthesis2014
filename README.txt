@@ -1,4 +1,6 @@
 UIUCTHESIS2014 Package/Class
+============================
+
 By Stephen Mayhew
 (Slightly) Edited version of the UIUCTHESIS2009 Package/Class
 By Charles Kiyanda
@@ -34,10 +36,11 @@ uiucthesis2014.sty		    Pregenerated style file (for backwards-compatibility)
 Installation
 ------------
 
+```
 make files                 <== Produces uiucthesis2014.cls, uiucthesis2014.sty, and thesis-ex.tex
 make example               <== Produces thesis-ex.pdf
 make doc                   <== Produces uiucthesis2014.pdf
-
+```
 
 Dependencies
 ------------
