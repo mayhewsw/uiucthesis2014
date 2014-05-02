@@ -1,0 +1,14 @@
+\def\batchfile{uiucthesis2014.ins}
+\input docstrip.tex
+
+\keepsilent
+\askforoverwritefalse
+
+\declarepreamble\none
+\endpreamble
+
+\generate{\file{uiucthesis2014.sty}{\from{uiucthesis2014.dtx}{package}}
+          \file{uiucthesis2014.cls}{\from{uiucthesis2014.dtx}{class}}
+          \usepreamble\none
+          \file{thesis-ex.tex}{\from{uiucthesis2014.dtx}{example}}
+}
