@@ -21,7 +21,7 @@
 %</driver>
 % \fi
 %
-% \CheckSum{1164}
+% \CheckSum{1158}
 %
 % \MakeShortVerb{\|}
 %
@@ -475,8 +475,8 @@ We conclude that graduate students like coffee.
 % \DescribeMacro{\backmatter}
 % The last few chapters in your thesis should not have chapter
 % numbers, but should be listed in the Table of Contents.
-% These chapters include the Bibliography, the Index,
-% and the Vita.  \LaTeX's |\backmatter| command accomplishes this.
+% These chapters include the Bibliography and the Index.  \LaTeX's
+% |\backmatter| command accomplishes this.
 %
 % \DescribeMacro{\bibliography}
 % Use the standard \LaTeX\ bibliography commands to
@@ -487,20 +487,11 @@ We conclude that graduate students like coffee.
 % You can also use the \pkg{natbib} package. Both of these packages
 % can do either bracketed citations or superscript citations.
 %
-% \DescribeMacro{\vita}
-% The |\vita| command begins a new chapter for your vita.
-% In fact, it does exactly the same thing as |\chapter{\vitaname}|,
-% where |\vitaname| is ``Vita.''
-%
 % \begin{quote} \hrule \begin{verbatim}
 \backmatter
 
 \bibliographystyle{apalike}
 \bibliography{thesisbib}
-
-\chapter{Vita}
-
-Juan Valdez was born\ldots.
 
 \end{document}
 % \end{verbatim} \hrule \end{quote}
@@ -562,11 +553,6 @@ Juan Valdez was born\ldots.
 % |\bibname| is a standard \LaTeX\ macro that contains the title of the reference
 % section at the end of your thesis; ``References'' by default. Use
 % |\renewcommand| to redefine it in the preamble.
-%
-% \DescribeMacro{\vitaname}
-% Like |\bibname| but it contains the name used for your vita at the very end.
-% The Grad College allows ``Vita'', ``Author's Biography'', or ``Curriculum Vitae'',
-% each of which is slightly different in format.  See \cite{Handbook}.
 %
 % \DescribeMacro{\abstractname}
 % Like above, but for the abstract. By default, ``Abstract''.
@@ -1684,26 +1670,6 @@ Juan Valdez was born\ldots.
 %    \end{macrocode}
 % \end{macro}
 %
-%
-% \subsection{Vita}
-%
-% The support for |\vita| is pretty minimal.
-%
-% \begin{macro}{\vitaname}
-% Define |\vitaname| so the user can change it if he wants.
-%    \begin{macrocode}
-\newcommand\vitaname{Vita}
-%    \end{macrocode}
-% \end{macro}
-%
-% \begin{macro}{\vita}
-% Vita should appear in Table of Contents, but should not be numbered.
-%    \begin{macrocode}
-\newcommand\vita{
-  \chapter{\vitaname}%
-}
-%    \end{macrocode}
-% \end{macro}
 %
 % \subsection{Body Formatting}
 %

@@ -49,6 +49,7 @@ Update Notes
 ------------
 
 2.25b (Stephen Mayhew)
+  * Removed the Vita Section
   * Added a Makefile
   * Changed all dates from 2009 -> 2014
   * Be careful when updating the date in the first line of uiucthesis2014.dtx! All numbers must be two digits, including month and day.
