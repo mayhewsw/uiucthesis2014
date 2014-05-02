@@ -1,8 +1,7 @@
 UIUCTHESIS2014 Package/Class
 ============================
 
-By Stephen Mayhew
-
+By Stephen Mayhew  
 (Slightly) Edited version of the UIUCTHESIS2009 Package/Class
 
 By Charles Kiyanda
